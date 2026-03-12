@@ -54,7 +54,7 @@ library(tufte)
 ```
 
 
-Some images stay with you for no particular reason. Years ago I came across a photograph of blue-green water against deep red canyon walls, and it lodged somewhere in the back of the mind the way certain images do. Not an obsession, just a quiet recurring thought: *that place is real, and it would be something to see it.* Havasupai permits are notoriously hard to get. They open once a year, sell out within hours, and for a group of twelve the odds are not flattering. We got ours on the first try, which felt less like a reward for planning and more like the universe deciding to cooperate on a particular Tuesday morning in February. We were lucky and everyone unanimously braced the permit fortune. 
+Some images stay with you for no particular reason. Years ago I came across a photograph of blue-green water against deep red canyon walls, and it lodged somewhere in the back of the mind the way certain images do. Not an obsession, just a quiet recurring thought: *that place is real, and it would be something to see it.* Havasupai permits are notoriously hard to get. They open once a year, sell out within hours, and for a group of twelve the odds are not flattering. We got ours on the first try, which felt less like a reward for planning and more like the universe deciding to cooperate on a particular day in early 2026. We were lucky and everyone unanimously braced the permit fortune. 
 
 `r margin_note("<img src='images/havasu_falls_wide.jpg' width='100%' style='border-radius:4px;'/><em>Havasu Falls: red canyon walls, electric turquoise pool, deep blue sky. No filter, no exaggeration.</em>")`
 
