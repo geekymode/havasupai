@@ -137,7 +137,7 @@ knitr::include_graphics("images/route66_sunset.jpg")
 
 We stopped for breakfast at [Mr D'z Diner](https://www.mrdz66diner.com) in Kingman first, a Route 66 institution with chrome stools and the kind of breakfast plate that makes a 1 a.m. departure feel entirely worth it. Then we made our way to the Havasupai Tourism Office in Peach Springs to pick up our permits, a required in-person stop before you can legally enter the reservation. By 12:30 p.m. we were at the trailhead, packs on, and beginning the descent.
 
-```{r plateau-view, fig.cap="One mile in from the trailhead. The plateau stretches flat in every direction and the canyon is completely invisible until you walk to the edge.", out.width="100%", fig.fullwidth=TRUE}
+```{r plateau-view, fig.cap="One mile in from the trailhead. The plateau stretches flat in every direction.", out.width="100%", fig.fullwidth=TRUE}
 knitr::include_graphics("images/plateau_view.jpg")
 ```
 
