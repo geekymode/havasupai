@@ -51,8 +51,7 @@ library(tufte)
   border-radius: 4px;
   font-style: italic;
 }
-/* Closing paragraph */
-.closing-para {
+body div.closing-para {
   font-family: Georgia, 'Times New Roman', serif;
   font-style: italic;
   color: #4a4a4a;
@@ -65,16 +64,6 @@ library(tufte)
 body div.box-teal, body div.box-amber, body div.box-red,
 body div.box-blue, body div.box-grey {
   width: 55%;
-}
-body div.closing-para {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  padding: 1.2em 4em;
-  box-sizing: border-box;
 }
 ```
 
@@ -270,7 +259,7 @@ Somewhere on the drive back through Arizona, we stopped at [**Kohinoor Dhaba**](
 
 We pulled into San Diego around 7 p.m.
 
-<div class="closing-para">
+<div class="fullwidth closing-para">
 Some trips you enjoy in the moment and forget by the following week. This was not one of those trips. The canyon stays with you: in the colour of water you keep comparing things to, in the ache in your legs that lingers for days, and in the particular way a group of twelve people looks at each other when they know they have shared something that will not be easy to explain to anyone who was not there.
 </div>
 
