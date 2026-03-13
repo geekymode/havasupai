@@ -51,10 +51,37 @@ library(tufte)
   border-radius: 4px;
   font-style: italic;
 }
+/* Closing paragraph */
+.closing-para {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  color: #4a4a4a;
+  font-size: 1.05em;
+  line-height: 1.8;
+  margin-top: 1.5em;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
+body div.box-teal, body div.box-amber, body div.box-red,
+body div.box-blue, body div.box-grey {
+  width: 55%;
+}
+body div.closing-para {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 1.2em 4em;
+  box-sizing: border-box;
+}
 ```
 
 
-Some images stay with you for no particular reason. Years ago I came across a photograph of blue-green water against deep red canyon walls, and it lodged somewhere in the back of the mind the way certain images do. Not an obsession, just a quiet recurring thought: *that place is real, and it would be something to see it.* Havasupai permits are notoriously hard to get. They open once a year, sell out within hours, and for a group of twelve the odds are not flattering. We got ours on the first try, which felt less like a reward for planning and more like the universe deciding to cooperate on a particular Tuesday morning in February. We were not going to argue with it.
+There are images that lodge. That find a soft place in the mind and press themselves in, gently, firmly, without drama. This one had blue green water. Unreal, almost impossible blue green water, pooled against walls of deep red stone. It came from somewhere called Havasupai. A word that meant, in the language of the people who had lived there for eight hundred years, the people of the blue green water. Of course it did. Some places name themselves exactly right.
+
+Havasupai permits are notoriously hard to get. They open once a year, sell out within hours, and for a group of twelve the odds are not flattering. We got ours on the first try, which felt less like a reward for planning and more like the universe deciding to cooperate on a particular day in early 2026. We were lucky and everyone unanimously braced the permit fortune. 
 
 `r margin_note("<img src='images/havasu_falls_wide.jpg' width='100%' style='border-radius:4px;'/><em>Havasu Falls: red canyon walls, electric turquoise pool, deep blue sky. No filter, no exaggeration.</em>")`
 
@@ -78,17 +105,7 @@ In 1882 the federal government reduced the Havasupai's world to just **518 acres
 
 `r margin_note("Grand Canyon National Park was established in 1919 on lands the Havasupai had used for centuries. For decades, the park's existence and the tribe's dispossession were rarely discussed together. They still often aren't.")`
 
-The turning point came in **January 1975**, when President Gerald Ford signed the [**Grand Canyon National Park Enlargement Act**](https://www.congress.gov/bill/93rd-congress/senate-bill/1296). Buried in the legislation were provisions that:
-
-<div class="box-teal">
-- Expanded the Havasupai Reservation from 518 acres to roughly **188,000 acres**
-- Designated an additional **95,300 acres** of federal land as permanent Havasupai Use Lands
-- Provided a **$1.25 million settlement** for nearly a century of dispossession
-</div>
-
-<div class="box-amber">
-Senator Barry Goldwater of Arizona, who had visited the tribe and become an advocate for their cause, remarked upon passage: *"After 95 years, they've got their homeland back."* It was an incomplete restoration. Language loss, disrupted traditions, and generational trauma do not get fixed by legislation. But it was real, and it mattered.
-</div>
+The turning point came in **January 1975**, when President Gerald Ford signed the [**Grand Canyon National Park Enlargement Act**](https://www.congress.gov/bill/93rd-congress/senate-bill/1296), which expanded the reservation from 518 acres to roughly 188,000 acres, designated an additional 95,300 acres as permanent Havasupai Use Lands, and provided a $1.25 million settlement for nearly a century of dispossession. Senator Barry Goldwater, who had become an advocate for the tribe, remarked upon passage: *"After 95 years, they've got their homeland back."* It was an incomplete restoration. Language loss, disrupted traditions, and generational trauma do not get fixed by legislation. But it was real, and it mattered.
 
 Today the [Havasupai Tribe](https://www.havasupaitribe.com) manages the reservation, runs the permit system, operates the campground and lodge, and controls access to what has become one of the most in-demand wilderness permits in the United States. Permits are booked at [havasupaireservations.com](https://www.havasupaireservations.com). That last part would have been unimaginable in 1960. It is, in its own way, a kind of justice.
 
@@ -96,7 +113,7 @@ Today the [Havasupai Tribe](https://www.havasupaitribe.com) manages the reservat
 
 # The Geography: A Canyon Inside a Canyon
 
-`r newthought("Havasu Canyon is a side canyon")` of the Grand Canyon, carved by Havasu Creek on its way to join the Colorado River about twelve miles downstream. From the trailhead at Hualapai Hilltop, you would never guess any of it exists. The desert is flat, dry, and unremarkable in every direction. The canyon only reveals itself when you walk to the rim and look over the edge.
+`r newthought("Havasu Canyon is a side canyon")` of the Grand Canyon, carved by Havasu Creek on its way to join the Colorado River about twelve miles downstream. From the trailhead at Hualapai Hilltop, you would never guess any of it exists. The desert is dry in every direction. The canyon only reveals itself when you walk into it.
 
 The trail drops about 2,000 feet over eleven miles. The first mile is pure switchbacks carved into the canyon wall. After that the walls close in, the grade levels off, and you walk a sandy wash with red and cream-colored sandstone walls rising on both sides. The geology reads like a stack of geological time periods: Kaibab limestone at the rim, Coconino sandstone through the middle miles, Hermit Shale in deep reds as you approach the canyon floor.
 
@@ -137,7 +154,7 @@ knitr::include_graphics("images/route66_sunset.jpg")
 
 We stopped for breakfast at [Mr D'z Diner](https://www.mrdz66diner.com) in Kingman first, a Route 66 institution with chrome stools and the kind of breakfast plate that makes a 1 a.m. departure feel entirely worth it. Then we made our way to the Havasupai Tourism Office in Peach Springs to pick up our permits, a required in-person stop before you can legally enter the reservation. By 12:30 p.m. we were at the trailhead, packs on, and beginning the descent.
 
-```{r plateau-view, fig.cap="One mile in from the trailhead. The plateau stretches flat in every direction and the canyon is completely invisible until you walk to the edge.", out.width="100%", fig.fullwidth=TRUE}
+```{r plateau-view, fig.cap="One mile in from the trailhead. The plateau stretches in every direction.", out.width="100%", fig.fullwidth=TRUE}
 knitr::include_graphics("images/plateau_view.jpg")
 ```
 
@@ -147,7 +164,7 @@ knitr::include_graphics("images/plateau_view.jpg")
 knitr::include_graphics("images/canyon_reveal.jpg")
 ```
 
-At the trailhead I got talking with one of the tribal employees, a friendly, sharp-witted man who seemed thoroughly entertained by twelve people from San Diego nervously adjusting their pack straps. He was generous with information: great weather ahead, he said, and the colour of the water right now was as good as it gets. He also taught me a handful of phrases in Supai, the tribal language. [*Gam'yu*](https://www.bigorrin.org/havasupai_kids.htm) ("gahm-yoo") is a friendly greeting, and the one I am most confident I have spelled correctly. He also shared rough equivalents of thank you and how are you, which I attempted to repeat with varying degrees of accuracy and which he received with considerable patience and visible amusement.
+At the trailhead I got talking with one of the tribal employees, a friendly, sharp-witted man. He was generous with information: great weather ahead, he said, and the color of the water right now was as good as it gets. He also taught me a handful of phrases in Supai, the tribal language. [*Gam'yu*](https://www.bigorrin.org/havasupai_kids.htm) ("gahm-yoo") is a friendly greeting, and the one I am most confident I have spelled correctly. He also shared rough equivalents of thank you and how are you, which I attempted to repeat with varying degrees of accuracy ; also credit to his considerable patience and visible amusement.
 
 That encounter set the tone for the people we met throughout the trip. Without exception, everyone we came across in and around the village was warm, grounded, and easy to talk to. And somewhat unexpectedly to those of us who had not thought it through, everyone spoke fluent English. The tribe has been navigating the outside world for a long time, and it shows.
 
@@ -161,7 +178,7 @@ knitr::include_graphics("images/canyon_trail.jpg")
 
 `r margin_note("Havasu Creek first appears a couple of miles from Supai Village: a sudden turquoise ribbon in a red canyon. Most of the Trailblazers stopped walking without any prior coordination when they first saw it.")`
 
-Havasu Creek appears a couple of miles before the village, and yes, it really does look like that. The water is genuinely the color of a Caribbean lagoon, running between canyon walls of deep red sandstone. `r margin_note("<img src='images/village_moon.jpg' width='100%' style='border-radius:4px;'/><em>The village at dusk, with the canyon walls catching the last light and the moon already up. The quiet here is a different quality of quiet.</em>")`
+Havasu Creek appears a couple of miles before the village, and yes, it really does look like that. The water is genuinely clear and almost pristine as seein images of a Caribbean lagoon, running between canyon walls of deep red sandstone. `r margin_note("<img src='images/village_moon.jpg' width='100%' style='border-radius:4px;'/><em>The village at dusk, with the canyon walls catching the last light and the moon already up. The quiet here is a different quality of quiet.</em>")`
 
 We arrived at Supai Village around 6 p.m., checked into the lodge, ate a simple dinner, and called it a night. The village is very quiet after dark. That first night's sleep, after a 1 a.m. departure and a long hike, was exceptional.
 
@@ -189,7 +206,7 @@ The pool at the base of Mooney is enormous and extremely cold and absolutely wor
 
 `r margin_note("<img src='images/creek_bridge.jpg' width='100%' style='border-radius:4px;'/><em>A makeshift log bridge over Havasu Creek, one of the improvised crossings on the way to Beaver Falls. The water is that colour in real life.</em>")`
 
-Beaver Falls is another three miles downstream and involves eleven creek crossings, sections of boulder-hopping, and stretches where you simply wade the creek because the trail has merged with it. We did all of this. Beaver Falls itself is not one dramatic plunge but a series of terraced cascades stepping down through travertine shelves into pools of varying shades of green. The water crossings on the way there were some of the most fun of the whole trip: clear, cold water, moving fast enough to feel it, the canyon walls high on both sides. By the time we reached Beaver Falls there was almost no one else around.
+Beaver Falls is another three miles downstream and involves around eleven creek crossings in total, four of them substantial and the rest smaller but no less beautiful, sections of boulder-hopping, and stretches where you simply wade the creek because the trail has merged with it. We did all of this. Beaver Falls itself is not one dramatic plunge but a series of terraced cascades stepping down through travertine shelves into pools of varying shades of green. The water crossings on the way there were some of the most fun of the whole trip: clear, cold water, moving fast enough to feel it, the canyon walls high on both sides. By the time we reached Beaver Falls there was almost no one else around.
 
 Beyond Beaver Falls, another four miles or so downstream, Havasu Creek meets the Colorado River at what is known as Confluence Falls. We did not get there, as time and legs both had their limits, but it is on the list for a return trip.
 
@@ -217,13 +234,13 @@ On the way back through the village we stopped for fry bread from one of the Hav
 knitr::include_graphics("images/frybread.jpg")
 ```
 
-That evening at the lodge involved a long session of Impostor (Among Us, the physical card version) that, as these games tend to, revealed unexpected sides of people's personalities. The accusations were spirited. No one admitted to anything.
+That evening at the lodge involved a long session of Impostor that, as these games tend to, revealed unexpected sides of people's personalities. The accusations were spirited. No one admitted to anything.
 
 ## Day 4: Blood Moon, Sunrise, and a Punjabi Dhaba
 
 `r newthought("We set our alarms for 4 a.m.")` on the last morning because of a lunar eclipse. A [blood moon](https://en.wikipedia.org/wiki/Lunar_eclipse#Blood_moon), a total lunar eclipse where the moon turns a deep coppery red as it moves through Earth's shadow, was happening in the pre-dawn hours of March 3rd. If you want to find a place with no light pollution, no cell towers, and an unobstructed view of open sky, the bottom of the Grand Canyon at 4 a.m. is an excellent option.
 
-```{r bloodmoon, fig.margin=TRUE, fig.cap="The blood moon of March 3, 2025, photographed from the canyon floor at 4 a.m. Zero light pollution, total silence, and twelve Trailblazers staring up in the dark.", out.width="100%"}
+```{r bloodmoon, fig.cap="The blood moon of March 3, 2025, photographed from the canyon floor at 4 a.m. Zero light pollution, total silence, and twelve Trailblazers staring up in the dark.", out.width="100%"}
 knitr::include_graphics("images/bloodmoon.jpg")
 ```
 
@@ -233,43 +250,33 @@ The moon was enormous and rust-colored and completely silent above the canyon wa
 
 We started the hike out around sunrise. Eight miles of ascent through a Grand Canyon morning, the walls shifting colour as the light changed, the canyon floor still in shadow while the rim above was already gold. It was a genuinely beautiful walk and a good way to end the trip. Nobody complained about the climb, which is either a testament to the group's fitness or to the fact that no one wanted to be the first to say anything.
 
+```{r creek-terraces, fig.cap="One of the stream crossings that stayed with us long after the trip. The travertine terraces, the bare cottonwoods, the water stepping down in shades of turquoise and white. Some places refuse to leave you alone. — <span style='color:#8b1a1a;'>ഈ വർണ്ണസുരഭിയാം ഭൂമിയിലല്ലാതെ കാമുകഹൃദയങ്ങളുണ്ടോ? സന്ധ്യകളുണ്ടോ ചന്ദ്രികയുണ്ടോ ഗന്ധർവഗീതമുണ്ടോ?</span> ([Vayalar Ramavarma](https://en.wikipedia.org/wiki/Vayalar_Ramavarma) — [♪](https://www.youtube.com/watch?v=LX_pS9RPpH8)) — On what world but this, this earth of color and fragrance, do loving hearts beat? Where else do twilights fall, moonlight drift across the night, and the unseen songs of Gandharvas float through the air?", out.width="100%"}
+knitr::include_graphics("images/creek_terraces.jpg")
+```
+
 ```{r morning-hike, fig.cap="The early morning ascent, with first light catching the canyon walls as the Trailblazers made their way back up. That golden hour in the Grand Canyon is something else entirely.", out.width="100%", fig.fullwidth=TRUE}
 knitr::include_graphics("images/morning_hike.jpg")
 ```
 
 The van was where we had left it at the trailhead. Everyone changed into dry clothes, loaded up, and headed out.
 
-Somewhere on the drive back through Arizona, we stopped at [**Kohinoor Dhaba**](https://maps.google.com/?q=Kohinoor+Dhaba,+12470+Frontage+Rd,+Yucca,+AZ+86438), a Punjabi dhaba on Frontage Road in Yucca, AZ, that against all reasonable expectation was serving some of the finest Punjabi food any of us had eaten in the United States. 4.7 stars on Google with over 1,700 reviews, $10-20 a head, no reservations. The kind of place you would drive past a hundred times without stopping. We ordered too much, ate all of it, and were very happy. Then came the real entertainment: the drive back. The DJ rotation properly kicked in, with everyone throwing in their picks. I briefly had the aux and made full use of the opportunity, leaning hard into 80s and 90s classics: Bon Jovi, A-ha, Bryan Adams, Dire Straits, F.R. David, Phil Collins, Hotel California, Ricky Martin, a little Backstreet Boys for good measure, then AR Rahman, Bollywood favourites, and a run of Malayalam and Tamil hits that the Arizona highway had absolutely no idea what to do with. The kind of songs that have no business sounding as good as they do at full van volume. The rest of the group had opinions. Politely expressed ones, mostly. We made a quick stop at a Starbucks somewhere along the way, fuelled up on caffeine, and carried on. The drive back to San Diego was loud and warm and comfortable in the way that the end of a good trip with good people tends to be.
-
 ```{r dhaba, fig.margin=TRUE, fig.cap="The dhaba spread: saag, butter chicken, raita, raw onion, and a tandoori roti. Somewhere on an Arizona highway, completely unasked for and entirely perfect.", out.width="100%"}
 knitr::include_graphics("images/punjabi_dhaba.jpg")
 ```
 
+`r margin_note("<img src='images/california_sign.jpg' width='100%' style='border-radius:4px;'/><em>Welcome back to California. The sign on the highway coming in from Arizona, spotted somewhere between the Dhaba and home.</em>")`
+
+Somewhere on the drive back through Arizona, we stopped at [**Kohinoor Dhaba**](https://maps.google.com/?q=Kohinoor+Dhaba,+12470+Frontage+Rd,+Yucca,+AZ+86438), a Punjabi dhaba on Frontage Road in Yucca, AZ, that against all reasonable expectation was serving some of the finest Punjabi food any of us had eaten in the United States. 4.7 stars on Google with over 1,700 reviews, $10-20 a head, no reservations. The kind of place you would drive past a hundred times without stopping. We ordered too much, ate all of it, and were very happy. Then came the real entertainment: the drive back. The DJ rotation properly kicked in, with everyone throwing in their picks. I briefly had the aux and made full use of the opportunity, leaning hard into 80s and 90s classics: Bon Jovi, A-ha, Bryan Adams, Dire Straits, F.R. David, Phil Collins, Hotel California, Ricky Martin, a little Backstreet Boys for good measure, then AR Rahman, Bollywood favourites, and a run of Malayalam and Tamil hits that the Arizona highway had absolutely no idea what to do with. The kind of songs that have no business sounding as good as they do at full van volume. We made a quick stop at a Starbucks somewhere along the way, fuelled up on caffeine, and carried on. The drive back to San Diego was loud and warm and comfortable in the way that the end of a good trip with good people tends to be.
+
 We pulled into San Diego around 7 p.m.
 
----
-
-# A Few Notes If You're Planning to Go
-
-`r margin_note("**Permit tips** <br> The Havasupai permit system opens in early February each year. Demand is extremely high; permits sell out within hours. Check havasupaireservations.com for cancellation releases. For a group of 12, have multiple people trying simultaneously.")`
-
-<div class="box-blue">
-**Permits.** Obtained through the [Havasupai Tribe's reservation system](https://www.havasupaireservations.com). Permits sell out within hours of opening. For a group of 12, it takes coordination and some luck. Cancellations do get released throughout the season, so it is worth checking back regularly if you miss the initial opening.
-
-**The drive.** From San Diego the drive is around 5–6 hours depending on your stop. Indian Route 18 off Route 66 is the last stretch, 65 miles on a remote two-lane road. Fill up the gas tank before you turn off the highway.
-
-**Start time.** We started at 12:30 p.m., which is on the later side, and arrived at the lodge just around dark. A dawn or early-morning start is smarter: it is cooler and you arrive with daylight to spare for swimming.
-
-**Water shoes.** The group was split on this. Some brought dedicated water shoes, some carried an extra pair alongside their hiking boots, and at least one person (me) just used a single pair of walking shoes throughout, creek crossings and all. It worked fine. The crossings are manageable in good trail shoes; water shoes make it more comfortable but are not strictly essential.
-
-**Fry bread.** Do not skip it.
-
-**Flash flooding.** The canyon is susceptible to flash floods from storms far upstream that you will never see. Pay attention to the tribe's guidance and any warnings. The 2008 flood reshaped the canyon in a matter of hours.
-
-**Pack out everything.** The tribe's rules are legally binding and ecologically necessary. The creek has already shown stress from visitor impact. Leave nothing.
+<div class="closing-para">
+Some trips you enjoy in the moment and forget by the following week. This was not one of those trips. The canyon stays with you: in the colour of water you keep comparing things to, in the ache in your legs that lingers for days, and in the particular way a group of twelve people looks at each other when they know they have shared something that will not be easy to explain to anyone who was not there.
 </div>
 
----
+`r margin_note("**If you're planning to go** <br><br> **Permits.** Book at havasupaireservations.com. They open in early February and sell out within hours. For a large group, have multiple people trying at once. Check back for cancellations. <br><br> **The drive.** About 5–6 hours from San Diego. The last 65 miles on Indian Route 18 are remote. Fill up before you turn off Route 66. <br><br> **Start early.** We started at 12:30 p.m. and arrived near dark. A morning start is much smarter. <br><br> **Footwear.** Water shoes help but are not essential. Good trail shoes work fine for the creek crossings. <br><br> **Fry bread.** Do not skip it. <br><br> **Flash floods.** The canyon floods fast from storms you will never see. Follow the tribe's warnings. <br><br> **Pack out everything.** The rules are binding. Leave nothing.")`
+
+
 
 # References & Further Reading
 
@@ -285,6 +292,7 @@ We pulled into San Diego around 7 p.m.
 - [Kohinoor Dhaba, Yucca AZ](https://maps.google.com/?q=Kohinoor+Dhaba,+12470+Frontage+Rd,+Yucca,+AZ+86438)
 
 ---
+
 
 <div class="box-grey">
 With thanks to the Havasupai Tribe for maintaining and opening access to this place, and to eleven Trailblazers, friends and family, who made the whole thing what it was.
