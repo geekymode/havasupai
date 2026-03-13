@@ -217,7 +217,7 @@ On the way back through the village we stopped for fry bread from one of the Hav
 knitr::include_graphics("images/frybread.jpg")
 ```
 
-That evening at the lodge involved a long session of Impostor (Among Us, the physical card version) that, as these games tend to, revealed unexpected sides of people's personalities. The accusations were spirited. No one admitted to anything.
+That evening at the lodge involved a long session of Impostor that, as these games tend to, revealed unexpected sides of people's personalities. The accusations were spirited. No one admitted to anything.
 
 ## Day 4: Blood Moon, Sunrise, and a Punjabi Dhaba
 
