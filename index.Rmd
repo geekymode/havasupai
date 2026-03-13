@@ -54,7 +54,9 @@ library(tufte)
 ```
 
 
-Some images stay with you for no particular reason. Years ago I came across a photograph of blue-green water against deep red canyon walls, and it lodged somewhere in the back of the mind the way certain images do. Not an obsession, just a quiet recurring thought: *that place is real, and it would be something to see it.* Havasupai permits are notoriously hard to get. They open once a year, sell out within hours, and for a group of twelve the odds are not flattering. We got ours on the first try, which felt less like a reward for planning and more like the universe deciding to cooperate on a particular day in early 2026. We were lucky and everyone unanimously braced the permit fortune. 
+There are images that lodge. That find a soft place in the mind and press themselves in, gently, firmly, without drama. This one had blue green water. Unreal, almost impossible blue green water, pooled against walls of deep red stone. It came from somewhere called Havasupai. A word that meant, in the language of the people who had lived there for eight hundred years, the people of the blue green water. Of course it did. Some places name themselves exactly right.
+
+Havasupai permits are notoriously hard to get. They open once a year, sell out within hours, and for a group of twelve the odds are not flattering. We got ours on the first try, which felt less like a reward for planning and more like the universe deciding to cooperate on a particular day in early 2026. We were lucky and everyone unanimously braced the permit fortune. 
 
 `r margin_note("<img src='images/havasu_falls_wide.jpg' width='100%' style='border-radius:4px;'/><em>Havasu Falls: red canyon walls, electric turquoise pool, deep blue sky. No filter, no exaggeration.</em>")`
 
@@ -96,7 +98,7 @@ Today the [Havasupai Tribe](https://www.havasupaitribe.com) manages the reservat
 
 # The Geography: A Canyon Inside a Canyon
 
-`r newthought("Havasu Canyon is a side canyon")` of the Grand Canyon, carved by Havasu Creek on its way to join the Colorado River about twelve miles downstream. From the trailhead at Hualapai Hilltop, you would never guess any of it exists. The desert is flat, dry, and unremarkable in every direction. The canyon only reveals itself when you walk into it.
+`r newthought("Havasu Canyon is a side canyon")` of the Grand Canyon, carved by Havasu Creek on its way to join the Colorado River about twelve miles downstream. From the trailhead at Hualapai Hilltop, you would never guess any of it exists. The desert is dry in every direction. The canyon only reveals itself when you walk into it.
 
 The trail drops about 2,000 feet over eleven miles. The first mile is pure switchbacks carved into the canyon wall. After that the walls close in, the grade levels off, and you walk a sandy wash with red and cream-colored sandstone walls rising on both sides. The geology reads like a stack of geological time periods: Kaibab limestone at the rim, Coconino sandstone through the middle miles, Hermit Shale in deep reds as you approach the canyon floor.
 
@@ -137,7 +139,7 @@ knitr::include_graphics("images/route66_sunset.jpg")
 
 We stopped for breakfast at [Mr D'z Diner](https://www.mrdz66diner.com) in Kingman first, a Route 66 institution with chrome stools and the kind of breakfast plate that makes a 1 a.m. departure feel entirely worth it. Then we made our way to the Havasupai Tourism Office in Peach Springs to pick up our permits, a required in-person stop before you can legally enter the reservation. By 12:30 p.m. we were at the trailhead, packs on, and beginning the descent.
 
-```{r plateau-view, fig.cap="One mile in from the trailhead. The plateau stretches flat in every direction.", out.width="100%", fig.fullwidth=TRUE}
+```{r plateau-view, fig.cap="One mile in from the trailhead. The plateau stretches in every direction.", out.width="100%", fig.fullwidth=TRUE}
 knitr::include_graphics("images/plateau_view.jpg")
 ```
 
